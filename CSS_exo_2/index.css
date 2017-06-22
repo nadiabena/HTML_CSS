@@ -1,0 +1,51 @@
+
+
+
+#corps {
+	animation-name: myBody;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myBody{
+	0% {
+		background-color: #DAF7A6;
+	}
+
+	33% {
+		background-color: #FFC300;
+	}
+
+	66% {
+		background-color: #FF5733;
+	}
+
+	100% {
+		background-color: #C70039;
+	}
+}
+
+div{
+	width: 100px;
+    height: 100px;
+}
+
+#carre {
+	animation-name: myCarre;
+
+	position: relative;
+    animation: myCarre 8s infinite;
+    animation-timing-function: linear;  
+ 	animation-iteration-count: infinite;
+}
+
+
+@keyframes myCarre{
+    from {left: 0px;}
+    to {left: 1550px;}
+}
+
+
+
+
+
