@@ -1,0 +1,107 @@
+@charset "UTF-8"; 
+@charset "iso-8859-15";
+
+
+/*body{
+	background-color: #C0C0C0;
+}*/
+#corps {
+	animation-name: myBody;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myBody{
+	0% {
+		background-color: #DAF7A6;
+	}
+
+	33% {
+		background-color: #FFC300;
+	}
+
+	66% {
+		background-color: #FF5733;
+	}
+
+	100% {
+		background-color: #C70039;
+	}
+}
+
+*{
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#carre {
+	animation-name: myCarre;
+
+	position: relative;
+    animation: myCarre 8s infinite;
+    animation-timing-function: linear;  
+ 	animation-iteration-count: infinite;
+}
+
+
+@keyframes myCarre{
+    from {left: 0px;}
+    to {left: 1000px;}
+}
+
+h1{
+	font-size: 17px;
+	padding/*-right*/: 20px;
+	margin/*-left*/: auto;
+}
+
+
+
+#general{
+	width: 1000px;
+	/*text-align: left; */
+	/*border: 3px red solid;*/
+	margin: 0 auto;
+
+}
+
+#test {
+	/*top:0;
+	border: 1px solid red;*/
+	/*vertical-align: top;*/
+	margin-top: 1em;
+	text-align: top;
+}
+
+.sexe {
+	/*margin-left: 30px;*/
+	margin-left: 50px;
+	padding-right: 50px;
+}
+
+label{
+	text-align: right;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+}
+
+#lastName, #firstName, #address, #email{
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}

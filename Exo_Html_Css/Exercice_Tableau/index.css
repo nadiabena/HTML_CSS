@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.femme {
+	color: #8A2BE2;
+}
+
+.homme {
+	color: green;
+}
+
+table {
+    font-family: arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+div {
+	margin: 50px 100px 100px 250px ;
+}
